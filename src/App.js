@@ -19,6 +19,31 @@ function App() {
       </Router>
 
       <a className="github-btn" href="https://github.com/CharlieLMAO"><i class="fab fa-github fa-2x"></i></a>
+      <div class="night">
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+          <div class="shooting_star"></div>
+      </div>
     </>
   );
 }
