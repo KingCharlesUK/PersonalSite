@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css?family=Exo:400,700');
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0
+}
+
+body {
+	font-family: 'Exo', sans-serif;
+	font-size: 1em;
+	color: #fff;
+	text-align: center
+}
+
+.main-btn {
+	background-color: transparent;
+	border: none;
+	color: #fff;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	border: 2px solid #fff;
+	position: relative;
+	z-index: 4;
+}
+
+.github-btn {
+	background-color: transparent;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: fixed;
+	z-index: 4;
+    bottom: 25px;
+	margin-left: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+	.github-btn {
+		background-color: transparent;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		position: fixed;
+		z-index: 4;
+		bottom: 25px;
+		margin-left: -15px;
+	}
+}
