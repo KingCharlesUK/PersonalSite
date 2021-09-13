@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Home from "./components/Home";
 import Projects from "./components/Projects";
+import NotFound from "./components/NotFound";
 import "./App.css";
 import "./bg.scss";
 
@@ -12,6 +13,7 @@ function App() {
           <Switch>
             <Route path="/" exact component={Home}/>
             <Route path="/projects" component={Projects}/>
+            <Route component={NotFound}/>
           </Switch>
         </div>
       </Router>
